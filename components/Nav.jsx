@@ -31,6 +31,7 @@ const Nav = () => {
   return (
     <nav className="flex w-full mb-16 pt-3 justify-between pl-3 pr-3">
       <Link href="/" className="flex gap-2 flex-center">
+        {/*  
         <Image
           src="/assets/images/logo.png"
           alt="logo"
@@ -38,6 +39,7 @@ const Nav = () => {
           height={30}
           className="object-contain"
         />
+        */}
         {<p className="logo_text">SeekAI</p>}
       </Link>
 
