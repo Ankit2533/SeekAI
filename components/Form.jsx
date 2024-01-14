@@ -16,7 +16,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         className="mt-10 w-full max-w-2xl flex flex-col gap-7 glassmorphism"
       >
         <label>
-          <span className="font-semibold text-base text-gray-700">
+          <span className="font-semibold text-base ">
             {" "}
             Your AI Prompt
           </span>
@@ -30,7 +30,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           />
         </label>
         <label>
-          <span className="font-semibold text-base text-gray-700">
+          <span className="font-semibold text-base ">
             {" "}
             Your Tag
           </span>
@@ -44,7 +44,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           />
         </label>
         <div className="flex-end mx-3 mb-5 gap-4">
-          <Link href="/" className="text-gray-500 text-sm">
+          <Link href="/" className="text-sm">
             Cancel
           </Link>
           <button
