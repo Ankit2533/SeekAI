@@ -38,7 +38,7 @@ const Nav = () => {
           height={30}
           className="object-contain"
         />
-        {/* <p className="logo_text">SeekAI</p> */}
+        {<p className="logo_text">SeekAI</p>}
       </Link>
 
       {/* Desktop Navigation */}
